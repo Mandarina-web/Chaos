@@ -1,0 +1,1061 @@
+[27May2025 01:16:19.435] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[27May2025 01:16:19.440] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[27May2025 01:16:21.573] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[27May2025 01:16:21.637] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Chaos/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[27May2025 01:16:22.452] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Chaos/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[27May2025 01:16:22.454] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Chaos/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27May2025 01:16:22.455] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Chaos/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27May2025 01:16:22.456] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Chaos/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27May2025 01:16:23.256] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[27May2025 01:16:23.259] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: /workspaces/Chaos/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar
+[27May2025 01:16:23.260] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 16 dependencies adding them to mods collection
+[27May2025 01:16:32.025] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[27May2025 01:16:33.394] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[27May2025 01:16:33.396] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[27May2025 01:16:33.526] [main/WARN] [mixin/]: Reference map 'advancementframes-common-refmap.json' for advancementframes-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:33.714] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.23.0+mc1.20.1: 95 options available, 0 override(s) found
+[27May2025 01:16:33.715] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[27May2025 01:16:33.747] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[27May2025 01:16:34.055] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 220 options available, 0 override(s) found
+[27May2025 01:16:34.097] [main/WARN] [mixin/]: Reference map 'jepp-common-refmap.json' for jepp-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.104] [main/WARN] [mixin/]: Reference map 'jepp-forge-refmap.json' for jepp.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.172] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.176] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.256] [main/WARN] [mixin/]: Reference map 'limitedchunks.refmap.json' for limitedchunks.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.282] [main/WARN] [mixin/]: Reference map 'carpeted-common-refmap.json' for carpeted-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.292] [main/WARN] [mixin/]: Reference map 'carpeted-forge-refmap.json' for carpeted.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.395] [main/WARN] [mixin/]: Reference map 'betterjukebox-forge-refmap.json' for betterjukebox-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.466] [main/WARN] [mixin/]: Reference map 'incubation.refmap.json' for incubation.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.558] [main/WARN] [mixin/]: Reference map 'moyai-forge-refmap.json' for moyai.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.649] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.684] [main/WARN] [mixin/]: Reference map 'farmersrespite.refmap.json' for farmersrespite.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:34.768] [main/WARN] [mixin/]: Reference map 'abnormals_delight.refmap.json' for abnormals_delight.mixins.json could not be read. If this is a development environment you can ignore this message
+[27May2025 01:16:36.388] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 01:16:36.428] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 01:16:36.756] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[27May2025 01:16:38.869] [main/WARN] [mixin/]: Error loading class: traben/entity_model_features/models/animation/EMFAnimationEntityContext (java.lang.ClassNotFoundException: traben.entity_model_features.models.animation.EMFAnimationEntityContext)
+[27May2025 01:16:38.899] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
+[27May2025 01:16:38.900] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
+[27May2025 01:16:38.908] [main/WARN] [mixin/]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
+[27May2025 01:16:38.908] [main/WARN] [mixin/]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
+[27May2025 01:16:38.948] [main/WARN] [mixin/]: Error loading class: fuzs/easymagic/world/inventory/ModEnchantmentMenu (java.lang.ClassNotFoundException: fuzs.easymagic.world.inventory.ModEnchantmentMenu)
+[27May2025 01:16:38.948] [main/WARN] [mixin/]: @Mixin target fuzs.easymagic.world.inventory.ModEnchantmentMenu was not found skilltree.mixins.json:easymagic/ModEnchantmentMenuMixin
+[27May2025 01:16:38.955] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/ench/table/ApothEnchantmentMenu (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu)
+[27May2025 01:16:38.958] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu was not found skilltree.mixins.json:apotheosis/ApothEnchantContainerMixin
+[27May2025 01:16:38.965] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/SocketingRecipe (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe)
+[27May2025 01:16:38.965] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe was not found skilltree.mixins.json:apotheosis/SocketingRecipeMixin
+[27May2025 01:16:38.974] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/AttributeBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus)
+[27May2025 01:16:38.975] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus was not found skilltree.mixins.json:apotheosis/AttributeBonusMixin
+[27May2025 01:16:38.982] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/EnchantmentBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus)
+[27May2025 01:16:38.982] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus was not found skilltree.mixins.json:apotheosis/EnchantmentBonusMixin
+[27May2025 01:16:39.304] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[27May2025 01:16:39.305] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[27May2025 01:16:39.306] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found mixins.create_sa.json:AbstractClientPlayerMixin
+[27May2025 01:16:39.326] [main/WARN] [mixin/]: Error loading class: dev/ftb/mods/ftbchunks/data/ClaimedChunkManagerImpl (java.lang.ClassNotFoundException: dev.ftb.mods.ftbchunks.data.ClaimedChunkManagerImpl)
+[27May2025 01:16:39.327] [main/WARN] [mixin/]: @Mixin target dev.ftb.mods.ftbchunks.data.ClaimedChunkManagerImpl was not found doespotatotick.mixins.json:ClaimedChunkManagerAccessor
+[27May2025 01:16:40.048] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[27May2025 01:16:41.518] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (25.78 s after launch)
+[27May2025 01:16:41.756] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[27May2025 01:16:41.757] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[27May2025 01:16:42.232] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[27May2025 01:16:42.233] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[27May2025 01:16:43.442] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 01:16:43.444] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 01:16:43.843] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin::handler$cka000$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[27May2025 01:16:44.452] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on allurement.mixins.json:ItemEntityMixin::handler$bkp000$getItemEnchantability exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[27May2025 01:16:46.277] [main/WARN] [mixin/]: Method overwrite conflict for m_7952_ in betterjukebox.mixins.json:JukeboxBlockMixin, previously written by net.mehvahdjukaar.amendments.mixins.JukeboxBlockMixin. Skipping method.
+[27May2025 01:16:46.420] [main/WARN] [mixin/]: Method overwrite conflict for m_6227_ in betterlily.mixins.json:WaterLilyMixin, previously written by net.mehvahdjukaar.amendments.mixins.WaterLilyMixin. Skipping method.
+[27May2025 01:16:47.015] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 5493 milliseconds
+[27May2025 01:16:48.048] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 01:16:48.049] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 01:16:48.135] [main/WARN] [mixin/]: Method overwrite conflict for m_5995_ in betterjukebox.mixins.json:JukeboxBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.JukeboxBlockEntityMixin. Skipping method.
+[27May2025 01:16:48.136] [main/WARN] [mixin/]: Method overwrite conflict for m_58483_ in betterjukebox.mixins.json:JukeboxBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.JukeboxBlockEntityMixin. Skipping method.
+[27May2025 01:16:50.567] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$bag000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[27May2025 01:16:52.354] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[27May2025 01:16:52.446] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping dungeonnowloading.forge.mixins.json:forge.structures.StructurePoolMixin->@ModifyConstant::dungeonnowloading_increaseWeightLimit(I)I with priority 1000, already redirected by yungsapi_forge.mixins.json:IncreaseStructureWeightLimitMixinForge->@ModifyConstant::yungsapi_increaseWeightLimit(I)I with priority 1000
+[27May2025 01:16:54.279] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgeRegistrationFactory for service Factory
+[27May2025 01:16:54.289] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgePlatformHelper for service PlatformHelper
+[27May2025 01:16:54.291] [modloading-worker-0/INFO] [ToolLeveling+/]: Initializing ToolLeveling+...
+[27May2025 01:16:55.243] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
+[27May2025 01:16:55.370] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[27May2025 01:16:55.418] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[27May2025 01:16:55.539] [modloading-worker-0/INFO] [STDOUT/]: [com.uraneptus.sullysmod.core.registry.SMBlocks:createBlockNoItem:169]: sullysmod:molten_amber_block
+[27May2025 01:16:55.540] [modloading-worker-0/INFO] [STDOUT/]: [com.uraneptus.sullysmod.core.registry.SMBlocks:createBlockNoItem:169]: sullysmod:amber_cauldron
+[27May2025 01:16:55.552] [modloading-worker-0/INFO] [STDOUT/]: [com.uraneptus.sullysmod.core.registry.SMBlocks:createBlockNoItem:169]: sullysmod:petrified_sign
+[27May2025 01:16:55.555] [modloading-worker-0/INFO] [STDOUT/]: [com.uraneptus.sullysmod.core.registry.SMBlocks:createBlockNoItem:169]: sullysmod:petrified_hanging_sign
+[27May2025 01:16:55.558] [modloading-worker-0/INFO] [STDOUT/]: [com.uraneptus.sullysmod.core.registry.SMBlocks:createBlockNoItem:169]: sullysmod:potted_petrified_sapling
+[27May2025 01:16:56.629] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[27May2025 01:16:56.632] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[27May2025 01:16:56.636] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[27May2025 01:16:56.641] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[27May2025 01:16:56.643] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[27May2025 01:16:56.647] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[27May2025 01:16:56.649] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[27May2025 01:16:56.679] [modloading-worker-0/INFO] [Dungeon Now Loading/]: Hello Forge world!
+[27May2025 01:16:56.696] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[27May2025 01:16:57.697] [modloading-worker-0/INFO] [com.mactso.spawnbalanceutility.util.Utility/]: L0:spawnbalanceutility: Registering Mod.
+[27May2025 01:16:57.712] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[27May2025 01:16:57.713] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[27May2025 01:17:00.418] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Booting... (platform: Forge, manual: false)
+[27May2025 01:17:00.421] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Found Mixin library. (version: 0.8.5)
+[27May2025 01:17:00.421] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (2 ms)
+[27May2025 01:17:00.860] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.4 initializing! Commit hash: 254bb816aee1c056c74b2ad4beb88222a499da78
+[27May2025 01:17:01.060] [modloading-worker-0/INFO] [Create Deco/]: Registering items for Create Deco
+[27May2025 01:17:01.158] [modloading-worker-0/INFO] [Create Deco/]: Registering blocks for Create Deco
+[27May2025 01:17:04.058] [modloading-worker-0/WARN] [Visuality/]: Visuality is installed on a dedicated server, skip loading...
+[27May2025 01:17:04.096] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[27May2025 01:17:11.551] [main/WARN] [Moonlight/]: Failed to find custom wood type caverns_and_chasms:azalea
+[27May2025 01:17:11.594] [main/INFO] [Moonlight/]: Initialized block sets in 55ms
+[27May2025 01:17:13.088] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[27May2025 01:17:13.120] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[27May2025 01:17:13.122] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[27May2025 01:17:13.126] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[27May2025 01:17:13.529] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.server.entity.TBAnimal from interface com.modderg.tameablebeasts.server.entity.TBRideable
+[27May2025 01:17:13.530] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.server.entity.TBAnimal from class com.modderg.tameablebeasts.server.entity.custom.GroundBeetleEntity
+[27May2025 01:17:13.563] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[27May2025 01:17:13.589] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[27May2025 01:17:14.170] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[27May2025 01:17:14.283] [main/INFO] [com.mactso.spawnbalanceutility.util.Utility/]: L0:spawnbalanceutility Reload Configuration
+[27May2025 01:17:14.284] [main/WARN] [com.mactso.spawnbalanceutility.config.MyConfig/]: spawnbalanceutility includedReportModsSet entry : examplemodname is not a valid current loaded forge mod.
+[27May2025 01:17:14.286] [main/WARN] [com.mactso.spawnbalanceutility.manager.PsuedoMobManager/]: PsueodoMobs.csv not found in config/spawnbalanceutility/ (Remember you rename PsueodoMobs.rpt to create it). 
+[27May2025 01:17:14.287] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: java.io.FileNotFoundException: config/spawnbalanceutility/PsuedoMobs.CSV (No such file or directory)
+[27May2025 01:17:14.288] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/java.io.FileInputStream.open0(Native Method)
+[27May2025 01:17:14.289] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+[27May2025 01:17:14.289] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+[27May2025 01:17:14.290] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at TRANSFORMER/spawnbalanceutility@46.13.6/com.mactso.spawnbalanceutility.manager.PsuedoMobManager.psuedoMobInit(PsuedoMobManager.java:69)
+[27May2025 01:17:14.290] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at TRANSFORMER/spawnbalanceutility@46.13.6/com.mactso.spawnbalanceutility.config.MyConfig.bakeConfig(MyConfig.java:155)
+[27May2025 01:17:14.291] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at TRANSFORMER/spawnbalanceutility@46.13.6/com.mactso.spawnbalanceutility.config.MyConfig.onModConfigEvent(MyConfig.java:128)
+[27May2025 01:17:14.291] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at TRANSFORMER/spawnbalanceutility@46.13.6/com.mactso.spawnbalanceutility.config.__MyConfig_onModConfigEvent_ModConfigEvent.invoke(.dynamic)
+[27May2025 01:17:14.293] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+[27May2025 01:17:14.293] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+[27May2025 01:17:14.294] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+[27May2025 01:17:14.295] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/javafmllanguage@1.20.1-47.3.7/net.minecraftforge.fml.javafmlmod.FMLModContainer.lambda$new$0(FMLModContainer.java:44)
+[27May2025 01:17:14.295] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at TRANSFORMER/modernfix@5.23.0+mc1.20.1/org.embeddedt.modernfix.forge.config.ConfigFixer$LockingConfigHandler.accept(ConfigFixer.java:53)
+[27May2025 01:17:14.296] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at TRANSFORMER/modernfix@5.23.0+mc1.20.1/org.embeddedt.modernfix.forge.config.ConfigFixer$LockingConfigHandler.accept(ConfigFixer.java:38)
+[27May2025 01:17:14.297] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModContainer.lambda$dispatchConfigEvent$8(ModContainer.java:170)
+[27May2025 01:17:14.297] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[27May2025 01:17:14.298] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModContainer.dispatchConfigEvent(ModContainer.java:170)
+[27May2025 01:17:14.299] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.config.ModConfig.fireEvent(ModConfig.java:77)
+[27May2025 01:17:14.300] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:62)
+[27May2025 01:17:14.300] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.config.ConfigTracker.lambda$loadConfigs$1(ConfigTracker.java:50)
+[27May2025 01:17:14.301] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+[27May2025 01:17:14.301] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/java.util.Collections$SynchronizedCollection.forEach(Collections.java:2131)
+[27May2025 01:17:14.301] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:50)
+[27May2025 01:17:14.302] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at TRANSFORMER/forge@47.3.7/net.minecraftforge.fml.core.ModStateProvider.lambda$new$3(ModStateProvider.java:68)
+[27May2025 01:17:14.302] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:217)
+[27May2025 01:17:14.302] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$19(ModLoader.java:209)
+[27May2025 01:17:14.302] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[27May2025 01:17:14.302] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:209)
+[27May2025 01:17:14.304] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModLoader.lambda$loadMods$15(ModLoader.java:190)
+[27May2025 01:17:14.305] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+[27May2025 01:17:14.305] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:190)
+[27May2025 01:17:14.306] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at TRANSFORMER/forge@47.3.7/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:31)
+[27May2025 01:17:14.306] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.Main.main(Main.java:125)
+[27May2025 01:17:14.307] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[27May2025 01:17:14.307] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[27May2025 01:17:14.308] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[27May2025 01:17:14.308] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+[27May2025 01:17:14.309] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.7/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+[27May2025 01:17:14.310] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.7/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103)
+[27May2025 01:17:14.312] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.7/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27)
+[27May2025 01:17:14.313] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+[27May2025 01:17:14.313] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[27May2025 01:17:14.314] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[27May2025 01:17:14.316] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+[27May2025 01:17:14.318] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+[27May2025 01:17:14.318] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[27May2025 01:17:14.319] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[27May2025 01:17:14.321] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.PsuedoMobManager:psuedoMobInit:138]: 	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+[27May2025 01:17:14.324] [main/WARN] [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager/]: BiomeMobWeight.csv not found in config/spawnbalanceutility/ (Remember you rename BiomeMobWeight.rpt to create it). 
+[27May2025 01:17:14.325] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: java.io.FileNotFoundException: config/spawnbalanceutility/BiomeMobWeight.CSV (No such file or directory)
+[27May2025 01:17:14.325] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/java.io.FileInputStream.open0(Native Method)
+[27May2025 01:17:14.326] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+[27May2025 01:17:14.326] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+[27May2025 01:17:14.328] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at TRANSFORMER/spawnbalanceutility@46.13.6/com.mactso.spawnbalanceutility.manager.BiomeCreatureManager.biomeCreatureInit(BiomeCreatureManager.java:47)
+[27May2025 01:17:14.328] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at TRANSFORMER/spawnbalanceutility@46.13.6/com.mactso.spawnbalanceutility.config.MyConfig.bakeConfig(MyConfig.java:156)
+[27May2025 01:17:14.329] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at TRANSFORMER/spawnbalanceutility@46.13.6/com.mactso.spawnbalanceutility.config.MyConfig.onModConfigEvent(MyConfig.java:128)
+[27May2025 01:17:14.329] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at TRANSFORMER/spawnbalanceutility@46.13.6/com.mactso.spawnbalanceutility.config.__MyConfig_onModConfigEvent_ModConfigEvent.invoke(.dynamic)
+[27May2025 01:17:14.330] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+[27May2025 01:17:14.330] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+[27May2025 01:17:14.331] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+[27May2025 01:17:14.332] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/javafmllanguage@1.20.1-47.3.7/net.minecraftforge.fml.javafmlmod.FMLModContainer.lambda$new$0(FMLModContainer.java:44)
+[27May2025 01:17:14.332] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at TRANSFORMER/modernfix@5.23.0+mc1.20.1/org.embeddedt.modernfix.forge.config.ConfigFixer$LockingConfigHandler.accept(ConfigFixer.java:53)
+[27May2025 01:17:14.333] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at TRANSFORMER/modernfix@5.23.0+mc1.20.1/org.embeddedt.modernfix.forge.config.ConfigFixer$LockingConfigHandler.accept(ConfigFixer.java:38)
+[27May2025 01:17:14.333] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModContainer.lambda$dispatchConfigEvent$8(ModContainer.java:170)
+[27May2025 01:17:14.333] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[27May2025 01:17:14.334] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModContainer.dispatchConfigEvent(ModContainer.java:170)
+[27May2025 01:17:14.334] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.config.ModConfig.fireEvent(ModConfig.java:77)
+[27May2025 01:17:14.335] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:62)
+[27May2025 01:17:14.336] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.config.ConfigTracker.lambda$loadConfigs$1(ConfigTracker.java:50)
+[27May2025 01:17:14.336] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+[27May2025 01:17:14.337] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/java.util.Collections$SynchronizedCollection.forEach(Collections.java:2131)
+[27May2025 01:17:14.338] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:50)
+[27May2025 01:17:14.339] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at TRANSFORMER/forge@47.3.7/net.minecraftforge.fml.core.ModStateProvider.lambda$new$3(ModStateProvider.java:68)
+[27May2025 01:17:14.340] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:217)
+[27May2025 01:17:14.340] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$19(ModLoader.java:209)
+[27May2025 01:17:14.341] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[27May2025 01:17:14.341] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:209)
+[27May2025 01:17:14.342] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModLoader.lambda$loadMods$15(ModLoader.java:190)
+[27May2025 01:17:14.342] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+[27May2025 01:17:14.343] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:190)
+[27May2025 01:17:14.343] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at TRANSFORMER/forge@47.3.7/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:31)
+[27May2025 01:17:14.343] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.Main.main(Main.java:125)
+[27May2025 01:17:14.344] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[27May2025 01:17:14.344] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[27May2025 01:17:14.346] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[27May2025 01:17:14.346] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+[27May2025 01:17:14.347] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.7/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+[27May2025 01:17:14.348] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.7/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103)
+[27May2025 01:17:14.349] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.7/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27)
+[27May2025 01:17:14.349] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+[27May2025 01:17:14.350] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[27May2025 01:17:14.350] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[27May2025 01:17:14.350] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+[27May2025 01:17:14.351] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+[27May2025 01:17:14.351] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[27May2025 01:17:14.352] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[27May2025 01:17:14.352] [main/INFO] [STDERR/]: [com.mactso.spawnbalanceutility.manager.BiomeCreatureManager:biomeCreatureInit:111]: 	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+[27May2025 01:17:14.353] [main/INFO] [com.mactso.spawnbalanceutility.util.Utility/]: L0:Warning StructMobWeight.csv not found in subdirectory SpawnBalanceUtility
+[27May2025 01:17:14.355] [main/INFO] [com.mactso.spawnbalanceutility.manager.MobMassAdditionManager/]: SpawnBalanceUtility: Mass Addition Not Configured.  File config/spawnbalanceutility/MassAdditionMobs.csv not found.
+[27May2025 01:17:14.576] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[27May2025 01:17:14.577] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
+[27May2025 01:17:14.691] [modloading-worker-0/INFO] [ToolLeveling+/]: Created README.txt in config folder.
+[27May2025 01:17:14.702] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'tool_leveling_table.json' was successfully loaded.
+[27May2025 01:17:14.705] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: tool_leveling_table.json
+[27May2025 01:17:14.712] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'command_config.json' was successfully loaded.
+[27May2025 01:17:14.713] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: command_config.json
+[27May2025 01:17:14.874] [modloading-worker-0/INFO] [com.limitedchunks.LimitedChunks/]: Limited chunkloading initialized
+[27May2025 01:17:14.943] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[27May2025 01:17:14.946] [modloading-worker-0/INFO] [com.farsight.FarsightMod/]: farsight_view mod initialized
+[27May2025 01:17:15.031] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[27May2025 01:17:15.061] [modloading-worker-0/INFO] [net.imasillylittleguy.cnc.CncMod/]: Loaded Critters n' Crawlers... tread lightly for there be beasts in these woods...
+[27May2025 01:17:15.108] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[27May2025 01:17:15.130] [modloading-worker-0/INFO] [com.samgj15.nightlights.NightLightsMain/]: Hey, it's Night Lights!
+[27May2025 01:17:15.228] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[27May2025 01:17:15.259] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[27May2025 01:17:15.260] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[27May2025 01:17:15.260] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[27May2025 01:17:15.380] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[27May2025 01:17:15.381] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[27May2025 01:17:15.383] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[27May2025 01:17:15.387] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[27May2025 01:17:15.665] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[27May2025 01:17:15.732] [main/INFO] [journeymap/]: Initializing Packet Registries
+[27May2025 01:17:15.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[27May2025 01:17:15.736] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
+[27May2025 01:17:15.774] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[27May2025 01:17:15.774] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[27May2025 01:17:15.774] [main/INFO] [terrablender/]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
+[27May2025 01:17:15.781] [main/WARN] [net.mehvahdjukaar.smarterfarmers.SmarterFarmers/]: Failed to add custom foods to villagers
+[27May2025 01:17:15.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: AHEAD Current: 5.4.1 Target: null
+[27May2025 01:17:15.789] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[27May2025 01:17:16.006] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[27May2025 01:17:16.006] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[27May2025 01:17:16.055] [main/INFO] [Moonlight/]: Initialized color sets in 122ms
+[27May2025 01:17:16.240] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23432!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23432!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[27May2025 01:17:16.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sullysmod] Starting version check at https://api.modrinth.com/updates/sullysmod/forge_updates.json
+[27May2025 01:17:16.294] [main/INFO] [Supplementaries/]: Finished mod setup in: [50, 4, 0, 0, 0, 0, 20, 12, 0] ms
+[27May2025 01:17:16.296] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sullysmod] Found status: UP_TO_DATE Current: 3.2.1-beta Target: null
+[27May2025 01:17:16.296] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[27May2025 01:17:16.672] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[27May2025 01:17:16.672] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[27May2025 01:17:16.699] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23432!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23432!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[27May2025 01:17:16.701] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Starting version check at https://maxhenkel.de/update/reap.json
+[27May2025 01:17:16.727] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 32 compatible attributes.
+[27May2025 01:17:16.738] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'parcool:stamina_recovery' does not belong to a known attribute. This entry will be ignored.
+[27May2025 01:17:16.739] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'parcool:max_stamina' does not belong to a known attribute. This entry will be ignored.
+[27May2025 01:17:16.740] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 34 values from config.
+[27May2025 01:17:16.759] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 34 entries.
+[27May2025 01:17:16.760] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 34 attributes.
+[27May2025 01:17:16.776] [modloading-worker-0/INFO] [STDOUT/]: [com.mrh0.createaddition.CreateAddition:postInit:136]: Create Crafts & Additions Initialized!
+[27May2025 01:17:16.797] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[27May2025 01:17:16.807] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at io.github.mortuusars.exposure.integration.jade.ExposureJadePlugin
+[27May2025 01:17:16.810] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[27May2025 01:17:16.811] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[27May2025 01:17:16.813] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.larsmans.infinitybuttons.compat.jade.InfinityButtonsPlugin
+[27May2025 01:17:16.815] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[27May2025 01:17:16.828] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[27May2025 01:17:16.832] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[27May2025 01:17:16.834] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.brdle.collectorsreap.compat.jade.CRJadePlugin
+[27May2025 01:17:17.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Found status: UP_TO_DATE Current: 1.20.1-1.0.2 Target: null
+[27May2025 01:17:17.680] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[27May2025 01:17:17.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 5.10.3 Target: null
+[27May2025 01:17:17.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[27May2025 01:17:17.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[27May2025 01:17:17.871] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[27May2025 01:17:17.873] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [spawnbalanceutility] Starting version check at https://github.com/mactso/SpawnBalanceUtility/raw/main/update.json
+[27May2025 01:17:18.054] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [spawnbalanceutility] Found status: BETA Current: 46.13.6 Target: 1.20-46.13.1
+[27May2025 01:17:18.055] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cnc] Starting version check at https://raw.githubusercontent.com/endcollector/critters-n-crawlers-updater/main/update.json
+[27May2025 01:17:18.115] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cnc] Found status: UP_TO_DATE Current: 2.2.2 Target: null
+[27May2025 01:17:18.115] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[27May2025 01:17:18.171] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[27May2025 01:17:18.221] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.30 Target: null
+[27May2025 01:17:18.221] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[27May2025 01:17:18.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.14.1 Target: null
+[27May2025 01:17:18.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Starting version check at https://raw.githubusercontent.com/VidTu/Ksyxis/main/updater_ksyxis_forge.json
+[27May2025 01:17:18.257] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Found status: UP_TO_DATE Current: 1.3.3 Target: null
+[27May2025 01:17:18.258] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[27May2025 01:17:18.271] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.30 Target: null
+[27May2025 01:17:18.272] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Starting version check at https://api.modrinth.com/updates/critters-and-companions/forge_updates.json
+[27May2025 01:17:18.321] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Found status: UP_TO_DATE Current: 2.2.2 Target: null
+[27May2025 01:17:18.321] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
+[27May2025 01:17:18.346] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23432!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23432!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[27May2025 01:17:18.347] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [collectorsreap] Starting version check at https://raw.githubusercontent.com/brnbrd/CollectorsReap/1.20.1/update.json
+[27May2025 01:17:18.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [collectorsreap] Found status: UP_TO_DATE Current: 1.3.4 Target: null
+[27May2025 01:17:19.169] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[27May2025 01:17:20.276] [main/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 0 milliseconds
+[27May2025 01:17:20.307] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Chaos/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23431!/assets/.mcassetsroot' uses unexpected schema
+[27May2025 01:17:20.309] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Chaos/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23431!/data/.mcassetsroot' uses unexpected schema
+[27May2025 01:17:20.614] [main/INFO] [com.simibubi.create.Create/]: Created 428 recipes which will be injected into the game
+[27May2025 01:17:20.638] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[27May2025 01:17:22.162] [main/INFO] [Moonlight/]: Generated runtime resources for 4 packs in a total of: 1287 ms
+[27May2025 01:17:22.323] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 15 data remolders!
+[27May2025 01:17:23.542] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[27May2025 01:17:30.002] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[27May2025 01:17:30.426] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:needs_tool_level_1 as it is missing following references: nordic_structures:dwarfcavernspawner_1 (from nordic_structures-1.6.9-forge-1.20.1.jar), 
+	nordic_structures:dwarfcavernspawner_2 (from nordic_structures-1.6.9-forge-1.20.1.jar), 
+	nordic_structures:abandonednordicmine_1spawner (from nordic_structures-1.6.9-forge-1.20.1.jar), 
+	nordic_structures:abandonednordicmine_2spawner (from nordic_structures-1.6.9-forge-1.20.1.jar), 
+	nordic_structures:steelore (from nordic_structures-1.6.9-forge-1.20.1.jar)
+[27May2025 01:17:30.932] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:tipped_spikes_blacklist as it is missing following references: minecraft:oozing (from supplementaries-1.20-3.1.30.jar), 
+	minecraft:infested (from supplementaries-1.20-3.1.30.jar)
+[27May2025 01:17:32.261] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:mynethersdelight:blocks/blackstone_cooking_pot
+com.google.gson.JsonSyntaxException: Unknown type 'mynethersdelight:copy_meal'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23436!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23436!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[27May2025 01:17:32.756] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:farmersrespite:blocks/kettle
+com.google.gson.JsonSyntaxException: Unknown type 'farmersrespite:copy_meal'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23436!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23436!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[27May2025 01:17:35.904] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 61 modifier groups
+[27May2025 01:17:36.056] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/plague_loot}.pools[0].entries[10].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.057] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/plague_loot}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.057] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[0].entries[6].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.058] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/musketeer_fort_loot}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.059] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.060] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.060] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.061] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/musketeer_fort_loot}.pools[2].entries[2].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.061] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.062] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.064] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[1].entries[8].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.065] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/musketeer_fort_loot}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.065] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/musketeer_fort_loot}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.066] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/plague_loot}.pools[0].entries[12].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.066] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[0].entries[8].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.067] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/musketeer_fort_loot}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.067] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/musketeer_fort_loot}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.068] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.068] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/plague_loot}.pools[0].entries[7].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.069] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.069] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/plague_loot}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.070] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/musketeer_fort_loot}.pools[2].entries[1].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.070] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.070] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/plague_loot}.pools[0].entries[8].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.071] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.071] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/musketeer_fort_loot}.pools[2].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.072] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/plague_loot}.pools[0].entries[9].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.072] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/musketeer_fort_loot}.pools[1].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.072] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.073] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/musketeer_fort_loot}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.073] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[0].entries[9].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.074] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[1].entries[7].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.074] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[1].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.075] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/musketeer_fort_loot}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.076] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/plague_loot}.pools[0].entries[11].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.076] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/plague_loot}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.076] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/plague_loot}.pools[0].entries[6].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.077] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/hut_loot}.pools[1].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 01:17:36.297] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe infinitybuttons:tongue_kelpy_stone_brick_secret_button: com.google.gson.JsonSyntaxException: Unknown item 'upgrade_aquatic:tongue_kelpy_stone_bricks'
+[27May2025 01:17:36.327] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe infinitybuttons:thorny_kelpy_stone_brick_secret_button: com.google.gson.JsonSyntaxException: Unknown item 'upgrade_aquatic:thorny_kelpy_stone_bricks'
+[27May2025 01:17:36.333] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sullysmod:crafting/quartz_lantern as it's serializer returned null
+[27May2025 01:17:36.381] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:yucca_fruit as it's serializer returned null
+[27May2025 01:17:36.435] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[27May2025 01:17:36.437] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe nethersdelight:cutting/hoglin_sausage_alt: com.google.gson.JsonSyntaxException: Unknown item 'nethersdelight:hoglin_loin'
+[27May2025 01:17:36.450] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe infinitybuttons:ochre_kelpy_stone_brick_secret_button: com.google.gson.JsonSyntaxException: Unknown item 'upgrade_aquatic:ochre_kelpy_stone_bricks'
+[27May2025 01:17:36.479] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[27May2025 01:17:36.489] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:collectorsreap/crop/portobello as it's serializer returned null
+[27May2025 01:17:36.519] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:golden_dragon_fruit_from_golden_dragon_fruit_crate as it's serializer returned null
+[27May2025 01:17:36.529] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe autumnity:cooked_turkey_piece_from_cooked_turkey as it's serializer returned null
+[27May2025 01:17:36.531] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/portobello_quiche_from_milk as it's serializer returned null
+[27May2025 01:17:36.548] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe abnormals_delight:environmental/cutting/plum_sign: com.google.gson.JsonSyntaxException: Unknown item 'envrionmental:plum_sign'
+[27May2025 01:17:36.562] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:dragon_fruit as it's serializer returned null
+[27May2025 01:17:36.576] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/portobello_burger_from_bun as it's serializer returned null
+[27May2025 01:17:36.583] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:currant as it's serializer returned null
+[27May2025 01:17:36.660] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:orange as it's serializer returned null
+[27May2025 01:17:36.683] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe infinitybuttons:cherry_bookshelf_secret_button: com.google.gson.JsonSyntaxException: Unknown item 'environmental:cherry_bookshelf'
+[27May2025 01:17:36.717] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/land_and_sea_burger_from_bun as it's serializer returned null
+[27May2025 01:17:36.728] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe minecraft:chest as it's serializer returned null
+[27May2025 01:17:36.741] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[27May2025 01:17:36.754] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sullysmod:crafting/jade_lantern as it's serializer returned null
+[27May2025 01:17:36.758] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sullysmod:crafting/emerald_lantern as it's serializer returned null
+[27May2025 01:17:36.783] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[27May2025 01:17:36.794] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[27May2025 01:17:36.797] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe seasonals:crafting/pumpkin_pie as it's serializer returned null
+[27May2025 01:17:36.801] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe autumnity:pumpkin_bread as it's serializer returned null
+[27May2025 01:17:36.806] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe minecraft:bookshelf as it's serializer returned null
+[27May2025 01:17:36.827] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe abnormals_delight:environmental/cutting/plum_trapdoor: com.google.gson.JsonSyntaxException: Unknown item 'envrionmental:plum_trapdoor'
+[27May2025 01:17:36.829] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:orange_crate as it's serializer returned null
+[27May2025 01:17:36.842] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:currant_crate as it's serializer returned null
+[27May2025 01:17:36.845] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cavedelight:dino_nugget_platter: com.google.gson.JsonSyntaxException: Unknown item 'alexscaves:dinosaur_nuggets'
+[27May2025 01:17:36.846] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:collectorsreap/crop/pomegranate as it's serializer returned null
+[27May2025 01:17:36.854] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe infinitybuttons:polar_kelpy_stone_brick_secret_button: com.google.gson.JsonSyntaxException: Unknown item 'upgrade_aquatic:polar_kelpy_stone_bricks'
+[27May2025 01:17:36.855] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sullysmod:crafting/diamond_lantern as it's serializer returned null
+[27May2025 01:17:36.856] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[27May2025 01:17:36.876] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cavedelight:cutting/tectonic_pie: com.google.gson.JsonSyntaxException: Unknown item 'cavedelight:tectonic_pie'
+[27May2025 01:17:36.887] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[27May2025 01:17:36.889] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:dragon_fruit_crate as it's serializer returned null
+[27May2025 01:17:36.898] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe minecraft:chiseled_bookshelf as it's serializer returned null
+[27May2025 01:17:36.898] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe minecraft:ladder as it's serializer returned null
+[27May2025 01:17:36.899] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:collectorsreap/crop/portobello_mushroom_colony as it's serializer returned null
+[27May2025 01:17:36.906] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[27May2025 01:17:36.916] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe minecraft:trapped_chest as it's serializer returned null
+[27May2025 01:17:36.941] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe abnormals_delight:environmental/cooking/truffle_mash: com.google.gson.JsonSyntaxException: Unknown item 'environmental:truffle_mash'
+[27May2025 01:17:36.943] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:shimmering_passion_fruit_crate as it's serializer returned null
+[27May2025 01:17:36.958] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:passion_fruit as it's serializer returned null
+[27May2025 01:17:36.959] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[27May2025 01:17:36.966] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:shimmering_passion_fruit_from_shimmering_passion_fruit_crate as it's serializer returned null
+[27May2025 01:17:36.973] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:yucca_cask as it's serializer returned null
+[27May2025 01:17:36.977] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/crab_lasagna_from_milk as it's serializer returned null
+[27May2025 01:17:36.980] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:blood_orange_crate as it's serializer returned null
+[27May2025 01:17:37.000] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:orange_sorbet as it's serializer returned null
+[27May2025 01:17:37.001] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[27May2025 01:17:37.002] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe abnormals_delight:environmental/cutting/plum_door: com.google.gson.JsonSyntaxException: Unknown item 'envrionmental:plum_door'
+[27May2025 01:17:37.017] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:roasted_yucca_cask as it's serializer returned null
+[27May2025 01:17:37.051] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[27May2025 01:17:37.054] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[27May2025 01:17:37.069] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_sa:andesite_exoskeleton_recipe: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
+[27May2025 01:17:37.083] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/sea_wrap_from_tortilla as it's serializer returned null
+[27May2025 01:17:37.096] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe autumnity:turkey_piece_from_turkey as it's serializer returned null
+[27May2025 01:17:37.100] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:blood_orange as it's serializer returned null
+[27May2025 01:17:37.101] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:passion_fruit_crate as it's serializer returned null
+[27May2025 01:17:37.125] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe seasonals:crafting/adzuki_curry as it's serializer returned null
+[27May2025 01:17:37.133] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe woodworks:environmental/cherry_button_from_cherry_planks_sawing: com.google.gson.JsonSyntaxException: Unknown item 'environmental:cherry_planks'
+[27May2025 01:17:37.143] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/portobello_wrap_from_tortilla as it's serializer returned null
+[27May2025 01:17:37.149] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:cake as it's serializer returned null
+[27May2025 01:17:37.152] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sullysmod:crafting/lapis_lantern as it's serializer returned null
+[27May2025 01:17:37.176] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:golden_dragon_fruit_crate as it's serializer returned null
+[27May2025 01:17:37.180] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe minecraft:beehive as it's serializer returned null
+[27May2025 01:17:37.186] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe abnormals_delight:environmental/cutting/plum_wood: com.google.gson.JsonSyntaxException: Unknown item 'envrionmental:plum_wood'
+[27May2025 01:17:37.190] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sullysmod:crafting/amethyst_lantern as it's serializer returned null
+[27May2025 01:17:37.197] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe autumnity:foul_soup as it's serializer returned null
+[27May2025 01:17:37.204] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[27May2025 01:17:37.220] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe atmospheric:roasted_yucca_fruit_from_roasted_yucca_cask as it's serializer returned null
+[27May2025 01:17:37.233] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe abnormals_delight:environmental/cutting/plum_hanging_sign: com.google.gson.JsonSyntaxException: Unknown item 'envrionmental:plum_hanging_sign'
+[27May2025 01:17:37.234] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe environmental:cherry_button: com.google.gson.JsonSyntaxException: Unknown item 'environmental:cherry_planks'
+[27May2025 01:17:37.237] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sullysmod:crafting/amber_lantern as it's serializer returned null
+[27May2025 01:17:37.237] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:collectorsreap/crop/lime as it's serializer returned null
+[27May2025 01:17:37.239] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe abnormals_delight:environmental/cutting/plum_log: com.google.gson.JsonSyntaxException: Unknown item 'envrionmental:plum_log'
+[27May2025 01:17:37.250] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 47 recipes
+[27May2025 01:17:37.267] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier group named 'abnormals_delight:husbandry/balanced_diet/incubation' as its conditions were not met
+[27May2025 01:17:37.272] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier named 'savage_and_ravage:adventure/voluntary_exile' as its conditions were not met
+[27May2025 01:17:37.272] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier named 'savage_and_ravage:adventure/voluntary_exile' as its conditions were not met
+[27May2025 01:17:37.274] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 88 modifier groups
+[27May2025 01:17:37.291] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/clam: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:37.451] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement infinitybuttons:recipe/redstone/cherry_bookshelf_secret_button: Unknown item id 'environmental:cherry_bookshelf'
+[27May2025 01:17:37.480] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement farmersrespite:main/stunt_tea_bush: Invalid criterion trigger: farmersrespite:stunt_tea_bush
+[27May2025 01:17:37.519] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/chieftain_claw: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:37.532] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement infinitybuttons:recipe/redstone/ochre_kelpy_stone_brick_secret_button: Unknown item id 'upgrade_aquatic:ochre_kelpy_stone_bricks'
+[27May2025 01:17:37.561] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/lime: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:37.572] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/portobello_quiche: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:37.586] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/pomegranate_cake: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:37.601] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement infinitybuttons:recipe/redstone/polar_kelpy_stone_brick_secret_button: Unknown item id 'upgrade_aquatic:polar_kelpy_stone_bricks'
+[27May2025 01:17:37.602] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/chieftain_crab: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:37.605] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement infinitybuttons:recipe/redstone/thorny_kelpy_stone_brick_secret_button: Unknown item id 'upgrade_aquatic:thorny_kelpy_stone_bricks'
+[27May2025 01:17:37.624] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/pomegranate: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:37.685] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/urchin: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:37.740] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement infinitybuttons:recipe/redstone/tongue_kelpy_stone_brick_secret_button: Unknown item id 'upgrade_aquatic:tongue_kelpy_stone_bricks'
+[27May2025 01:17:37.743] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/platinum_bass: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:37.957] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/lime_pie: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:37.967] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/portobello_colony: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:38.001] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/chieftain_legs: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:38.156] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/lime_cake: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:38.164] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/stygian_pomegranate: Missing advancement, expected to find a JsonObject
+[27May2025 01:17:38.291] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 9511 advancements
+[27May2025 01:17:38.343] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[27May2025 01:17:38.362] [main/INFO] [io.github.mortuusars.exposure.Exposure/]: Loading exposure lenses:
+[27May2025 01:17:38.366] [main/INFO] [io.github.mortuusars.exposure.Exposure/]: Lens [exposure:spyglass, FocalRange[min=55, max=200]] added.
+[27May2025 01:17:38.390] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[27May2025 01:17:38.403] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[27May2025 01:17:38.457] [main/INFO] [Dungeon Crawl/]: Loading data...
+[27May2025 01:17:39.125] [main/INFO] [Dungeon Crawl/]: Done.
+[27May2025 01:17:39.135] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 3 modifier groups
+[27May2025 01:17:39.152] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23436!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:406) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23436!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23436!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[27May2025 01:17:39.160] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_tentacles - error: Unknown type 'alternative'
+[27May2025 01:17:39.164] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23436!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23436!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23436!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23431!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[27May2025 01:17:39.178] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_silverfish - error: Unknown type 'alternative'
+[27May2025 01:17:39.361] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[27May2025 01:17:39.378] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[27May2025 01:17:39.445] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[27May2025 01:17:39.554] [main/INFO] [Moonlight/]: Applied 7 data villager trades
+[27May2025 01:17:39.752] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
+[27May2025 01:17:39.797] [main/WARN] [ModernFix/]: Initial datapack load took 19.09 s
+[27May2025 01:17:40.072] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[27May2025 01:17:40.081] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[27May2025 01:17:40.082] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[27May2025 01:17:40.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[27May2025 01:17:40.427] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[27May2025 01:17:40.469] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[27May2025 01:17:40.654] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[27May2025 01:17:40.655] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[27May2025 01:17:40.657] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[27May2025 01:17:40.657] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[27May2025 01:17:40.701] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[27May2025 01:17:41.441] [Server thread/INFO] [spark/]: Starting background profiler...
+[27May2025 01:17:42.289] [Server thread/INFO] [Framework/]: Loading server configs...
+[27May2025 01:17:42.321] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[27May2025 01:17:42.322] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[27May2025 01:17:42.324] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (alexscaves:abyssal_chasm) has no valid mobs.
+[27May2025 01:17:42.325] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (incendium:ash_barrens) has no valid mobs.
+[27May2025 01:17:42.326] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:aspen_parkland) has no valid mobs.
+[27May2025 01:17:42.326] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:badlands) has no valid mobs.
+[27May2025 01:17:42.329] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:bamboo_jungle) has no valid mobs.
+[27May2025 01:17:42.330] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:basalt_deltas) has no valid mobs.
+[27May2025 01:17:42.330] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:beach) has no valid mobs.
+[27May2025 01:17:42.330] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:birch_forest) has no valid mobs.
+[27May2025 01:17:42.330] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (netherexp:black_ice_glaciers) has no valid mobs.
+[27May2025 01:17:42.333] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (environmental:blossom_valleys) has no valid mobs.
+[27May2025 01:17:42.334] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (environmental:blossom_woods) has no valid mobs.
+[27May2025 01:17:42.335] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (alexscaves:candy_cavity) has no valid mobs.
+[27May2025 01:17:42.336] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:cherry_grove) has no valid mobs.
+[27May2025 01:17:42.337] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:cold_ocean) has no valid mobs.
+[27May2025 01:17:42.338] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:crimson_forest) has no valid mobs.
+[27May2025 01:17:42.339] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:dark_forest) has no valid mobs.
+[27May2025 01:17:42.340] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:deep_cold_ocean) has no valid mobs.
+[27May2025 01:17:42.341] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:deep_dark) has no valid mobs.
+[27May2025 01:17:42.342] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:deep_frozen_ocean) has no valid mobs.
+[27May2025 01:17:42.342] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:deep_lukewarm_ocean) has no valid mobs.
+[27May2025 01:17:42.342] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:deep_ocean) has no valid mobs.
+[27May2025 01:17:42.343] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (terrablender:deferred_placeholder) has no valid mobs.
+[27May2025 01:17:42.344] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:desert) has no valid mobs.
+[27May2025 01:17:42.346] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:dripstone_caves) has no valid mobs.
+[27May2025 01:17:42.346] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:dunes) has no valid mobs.
+[27May2025 01:17:42.347] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:end_barrens) has no valid mobs.
+[27May2025 01:17:42.347] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:end_highlands) has no valid mobs.
+[27May2025 01:17:42.348] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:end_midlands) has no valid mobs.
+[27May2025 01:17:42.349] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:eroded_badlands) has no valid mobs.
+[27May2025 01:17:42.350] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (netherexp:exhaust_mire) has no valid mobs.
+[27May2025 01:17:42.351] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:flourishing_dunes) has no valid mobs.
+[27May2025 01:17:42.351] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:flower_forest) has no valid mobs.
+[27May2025 01:17:42.352] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:forest) has no valid mobs.
+[27May2025 01:17:42.353] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (alexscaves:forlorn_hollows) has no valid mobs.
+[27May2025 01:17:42.354] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (yungscavebiomes:frosted_caves) has no valid mobs.
+[27May2025 01:17:42.354] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:frozen_ocean) has no valid mobs.
+[27May2025 01:17:42.355] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:frozen_peaks) has no valid mobs.
+[27May2025 01:17:42.357] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:frozen_river) has no valid mobs.
+[27May2025 01:17:42.358] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:grimwoods) has no valid mobs.
+[27May2025 01:17:42.358] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:grove) has no valid mobs.
+[27May2025 01:17:42.358] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:hot_springs) has no valid mobs.
+[27May2025 01:17:42.358] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:ice_spikes) has no valid mobs.
+[27May2025 01:17:42.358] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (incendium:infernal_dunes) has no valid mobs.
+[27May2025 01:17:42.359] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (incendium:inverted_forest) has no valid mobs.
+[27May2025 01:17:42.359] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:jagged_peaks) has no valid mobs.
+[27May2025 01:17:42.359] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:jungle) has no valid mobs.
+[27May2025 01:17:42.359] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:kousa_jungle) has no valid mobs.
+[27May2025 01:17:42.359] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:laurel_forest) has no valid mobs.
+[27May2025 01:17:42.362] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (yungscavebiomes:lost_caves) has no valid mobs.
+[27May2025 01:17:42.363] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:lukewarm_ocean) has no valid mobs.
+[27May2025 01:17:42.364] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:lush_caves) has no valid mobs.
+[27May2025 01:17:42.365] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (alexscaves:magnetic_caves) has no valid mobs.
+[27May2025 01:17:42.366] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:mangrove_swamp) has no valid mobs.
+[27May2025 01:17:42.367] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (autumnity:maple_forest) has no valid mobs.
+[27May2025 01:17:42.368] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (environmental:marsh) has no valid mobs.
+[27May2025 01:17:42.370] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:meadow) has no valid mobs.
+[27May2025 01:17:42.370] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:mushroom_fields) has no valid mobs.
+[27May2025 01:17:42.371] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:nether_wastes) has no valid mobs.
+[27May2025 01:17:42.371] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:ocean) has no valid mobs.
+[27May2025 01:17:42.372] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:old_growth_birch_forest) has no valid mobs.
+[27May2025 01:17:42.372] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (environmental:old_growth_pine_barrens) has no valid mobs.
+[27May2025 01:17:42.373] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:old_growth_pine_taiga) has no valid mobs.
+[27May2025 01:17:42.374] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:old_growth_spruce_taiga) has no valid mobs.
+[27May2025 01:17:42.375] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (blueprint:original_source_marker) has no valid mobs.
+[27May2025 01:17:42.376] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:petrified_dunes) has no valid mobs.
+[27May2025 01:17:42.377] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (environmental:pine_barrens) has no valid mobs.
+[27May2025 01:17:42.379] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (environmental:pine_slopes) has no valid mobs.
+[27May2025 01:17:42.379] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:plains) has no valid mobs.
+[27May2025 01:17:42.380] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (endergetic:poise_forest) has no valid mobs.
+[27May2025 01:17:42.380] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (alexscaves:primordial_caves) has no valid mobs.
+[27May2025 01:17:42.381] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (autumnity:pumpkin_fields) has no valid mobs.
+[27May2025 01:17:42.384] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (incendium:quartz_flats) has no valid mobs.
+[27May2025 01:17:42.384] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:rainforest) has no valid mobs.
+[27May2025 01:17:42.385] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:rainforest_basin) has no valid mobs.
+[27May2025 01:17:42.385] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:river) has no valid mobs.
+[27May2025 01:17:42.386] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:rocky_dunes) has no valid mobs.
+[27May2025 01:17:42.386] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:savanna) has no valid mobs.
+[27May2025 01:17:42.387] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:savanna_plateau) has no valid mobs.
+[27May2025 01:17:42.389] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:scrubland) has no valid mobs.
+[27May2025 01:17:42.390] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:small_end_islands) has no valid mobs.
+[27May2025 01:17:42.390] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:snowy_beach) has no valid mobs.
+[27May2025 01:17:42.392] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (environmental:snowy_old_growth_pine_barrens) has no valid mobs.
+[27May2025 01:17:42.396] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (environmental:snowy_pine_barrens) has no valid mobs.
+[27May2025 01:17:42.397] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:snowy_plains) has no valid mobs.
+[27May2025 01:17:42.397] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:snowy_scrubland) has no valid mobs.
+[27May2025 01:17:42.397] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:snowy_slopes) has no valid mobs.
+[27May2025 01:17:42.397] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:snowy_taiga) has no valid mobs.
+[27May2025 01:17:42.397] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (netherexp:sorrowsquash_pastures) has no valid mobs.
+[27May2025 01:17:42.400] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:soul_sand_valley) has no valid mobs.
+[27May2025 01:17:42.401] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:sparse_jungle) has no valid mobs.
+[27May2025 01:17:42.402] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:sparse_rainforest) has no valid mobs.
+[27May2025 01:17:42.404] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:sparse_rainforest_basin) has no valid mobs.
+[27May2025 01:17:42.408] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (atmospheric:spiny_thicket) has no valid mobs.
+[27May2025 01:17:42.408] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:stony_peaks) has no valid mobs.
+[27May2025 01:17:42.408] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:stony_shore) has no valid mobs.
+[27May2025 01:17:42.408] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (neapolitan:strawberry_fields) has no valid mobs.
+[27May2025 01:17:42.408] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:sunflower_plains) has no valid mobs.
+[27May2025 01:17:42.411] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:swamp) has no valid mobs.
+[27May2025 01:17:42.413] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:taiga) has no valid mobs.
+[27May2025 01:17:42.415] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:the_end) has no valid mobs.
+[27May2025 01:17:42.419] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:the_void) has no valid mobs.
+[27May2025 01:17:42.420] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (alexscaves:toxic_caves) has no valid mobs.
+[27May2025 01:17:42.425] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (incendium:toxic_heap) has no valid mobs.
+[27May2025 01:17:42.425] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (incendium:volcanic_deltas) has no valid mobs.
+[27May2025 01:17:42.425] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:warm_ocean) has no valid mobs.
+[27May2025 01:17:42.425] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:warped_forest) has no valid mobs.
+[27May2025 01:17:42.428] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (incendium:weeping_valley) has no valid mobs.
+[27May2025 01:17:42.431] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:windswept_forest) has no valid mobs.
+[27May2025 01:17:42.432] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:windswept_gravelly_hills) has no valid mobs.
+[27May2025 01:17:42.433] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:windswept_hills) has no valid mobs.
+[27May2025 01:17:42.434] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:windswept_savanna) has no valid mobs.
+[27May2025 01:17:42.438] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (incendium:withered_forest) has no valid mobs.
+[27May2025 01:17:42.441] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: XXX Biome (minecraft:wooded_badlands) has no valid mobs.
+[27May2025 01:17:42.443] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]:  SpawnBalanceUtility: Fixing biome extreme spawn values. 
+[27May2025 01:17:42.446] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: alexscaves:abyssal_chasm
+[27May2025 01:17:42.459] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: incendium:ash_barrens
+[27May2025 01:17:42.462] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:aspen_parkland
+[27May2025 01:17:42.465] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:badlands
+[27May2025 01:17:42.473] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:bamboo_jungle
+[27May2025 01:17:42.480] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:basalt_deltas
+[27May2025 01:17:42.489] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:beach
+[27May2025 01:17:42.495] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:birch_forest
+[27May2025 01:17:42.500] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: netherexp:black_ice_glaciers
+[27May2025 01:17:42.507] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: environmental:blossom_valleys
+[27May2025 01:17:42.510] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: environmental:blossom_woods
+[27May2025 01:17:42.511] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: alexscaves:candy_cavity
+[27May2025 01:17:42.512] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:cherry_grove
+[27May2025 01:17:42.518] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:cold_ocean
+[27May2025 01:17:42.522] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:crimson_forest
+[27May2025 01:17:42.524] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:dark_forest
+[27May2025 01:17:42.525] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:deep_cold_ocean
+[27May2025 01:17:42.528] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:deep_dark
+[27May2025 01:17:42.532] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:deep_frozen_ocean
+[27May2025 01:17:42.535] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:deep_lukewarm_ocean
+[27May2025 01:17:42.537] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:deep_ocean
+[27May2025 01:17:42.539] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: terrablender:deferred_placeholder
+[27May2025 01:17:42.541] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:desert
+[27May2025 01:17:42.542] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:dripstone_caves
+[27May2025 01:17:42.542] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:dunes
+[27May2025 01:17:42.545] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:end_barrens
+[27May2025 01:17:42.549] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:end_highlands
+[27May2025 01:17:42.553] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:end_midlands
+[27May2025 01:17:42.557] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:eroded_badlands
+[27May2025 01:17:42.559] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: netherexp:exhaust_mire
+[27May2025 01:17:42.559] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:flourishing_dunes
+[27May2025 01:17:42.560] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:flower_forest
+[27May2025 01:17:42.569] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:forest
+[27May2025 01:17:42.575] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: alexscaves:forlorn_hollows
+[27May2025 01:17:42.578] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: yungscavebiomes:frosted_caves
+[27May2025 01:17:42.579] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:frozen_ocean
+[27May2025 01:17:42.586] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:frozen_peaks
+[27May2025 01:17:42.587] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:frozen_river
+[27May2025 01:17:42.590] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:grimwoods
+[27May2025 01:17:42.593] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:grove
+[27May2025 01:17:42.597] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:hot_springs
+[27May2025 01:17:42.598] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:ice_spikes
+[27May2025 01:17:42.601] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: incendium:infernal_dunes
+[27May2025 01:17:42.605] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: incendium:inverted_forest
+[27May2025 01:17:42.608] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:jagged_peaks
+[27May2025 01:17:42.609] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:jungle
+[27May2025 01:17:42.614] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:kousa_jungle
+[27May2025 01:17:42.616] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:laurel_forest
+[27May2025 01:17:42.617] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: yungscavebiomes:lost_caves
+[27May2025 01:17:42.621] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:lukewarm_ocean
+[27May2025 01:17:42.623] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:lush_caves
+[27May2025 01:17:42.626] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: alexscaves:magnetic_caves
+[27May2025 01:17:42.627] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:mangrove_swamp
+[27May2025 01:17:42.631] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: autumnity:maple_forest
+[27May2025 01:17:42.634] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: environmental:marsh
+[27May2025 01:17:42.637] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:meadow
+[27May2025 01:17:42.640] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:mushroom_fields
+[27May2025 01:17:42.640] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:nether_wastes
+[27May2025 01:17:42.641] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:ocean
+[27May2025 01:17:42.642] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:old_growth_birch_forest
+[27May2025 01:17:42.643] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: environmental:old_growth_pine_barrens
+[27May2025 01:17:42.644] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:old_growth_pine_taiga
+[27May2025 01:17:42.646] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:old_growth_spruce_taiga
+[27May2025 01:17:42.647] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: blueprint:original_source_marker
+[27May2025 01:17:42.647] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:petrified_dunes
+[27May2025 01:17:42.648] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: environmental:pine_barrens
+[27May2025 01:17:42.651] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: environmental:pine_slopes
+[27May2025 01:17:42.653] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:plains
+[27May2025 01:17:42.661] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: endergetic:poise_forest
+[27May2025 01:17:42.661] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: alexscaves:primordial_caves
+[27May2025 01:17:42.662] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: autumnity:pumpkin_fields
+[27May2025 01:17:42.664] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: incendium:quartz_flats
+[27May2025 01:17:42.668] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:rainforest
+[27May2025 01:17:42.671] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:rainforest_basin
+[27May2025 01:17:42.674] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:river
+[27May2025 01:17:42.675] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:rocky_dunes
+[27May2025 01:17:42.678] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:savanna
+[27May2025 01:17:42.679] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:savanna_plateau
+[27May2025 01:17:42.680] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:scrubland
+[27May2025 01:17:42.683] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:small_end_islands
+[27May2025 01:17:42.684] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:snowy_beach
+[27May2025 01:17:42.687] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: environmental:snowy_old_growth_pine_barrens
+[27May2025 01:17:42.688] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: environmental:snowy_pine_barrens
+[27May2025 01:17:42.690] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:snowy_plains
+[27May2025 01:17:42.691] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:snowy_scrubland
+[27May2025 01:17:42.695] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:snowy_slopes
+[27May2025 01:17:42.696] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:snowy_taiga
+[27May2025 01:17:42.698] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: netherexp:sorrowsquash_pastures
+[27May2025 01:17:42.700] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:soul_sand_valley
+[27May2025 01:17:42.702] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:sparse_jungle
+[27May2025 01:17:42.703] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:sparse_rainforest
+[27May2025 01:17:42.709] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:sparse_rainforest_basin
+[27May2025 01:17:42.713] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: atmospheric:spiny_thicket
+[27May2025 01:17:42.715] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:stony_peaks
+[27May2025 01:17:42.716] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:stony_shore
+[27May2025 01:17:42.718] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: neapolitan:strawberry_fields
+[27May2025 01:17:42.719] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:sunflower_plains
+[27May2025 01:17:42.720] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:swamp
+[27May2025 01:17:42.721] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:taiga
+[27May2025 01:17:42.722] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:the_end
+[27May2025 01:17:42.723] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:the_void
+[27May2025 01:17:42.724] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: alexscaves:toxic_caves
+[27May2025 01:17:42.725] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: incendium:toxic_heap
+[27May2025 01:17:42.726] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: incendium:volcanic_deltas
+[27May2025 01:17:42.727] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:warm_ocean
+[27May2025 01:17:42.729] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:warped_forest
+[27May2025 01:17:42.729] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: incendium:weeping_valley
+[27May2025 01:17:42.730] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:windswept_forest
+[27May2025 01:17:42.732] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:windswept_gravelly_hills
+[27May2025 01:17:42.735] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:windswept_hills
+[27May2025 01:17:42.736] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:windswept_savanna
+[27May2025 01:17:42.740] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: incendium:withered_forest
+[27May2025 01:17:42.741] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.SpawnBiomeData/]: SBU Biomes: minecraft:wooded_badlands
+[27May2025 01:17:42.745] [Server thread/INFO] [com.mactso.spawnbalanceutility.util.Summary/]: SBU SUMMARY
+[27May2025 01:17:42.746] [Server thread/INFO] [com.mactso.spawnbalanceutility.util.Summary/]: Biome csv: 0 lines read
+[27May2025 01:17:42.748] [Server thread/INFO] [com.mactso.spawnbalanceutility.util.Summary/]: Structure csv: 0 lines read
+[27May2025 01:17:42.748] [Server thread/INFO] [com.mactso.spawnbalanceutility.util.Summary/]: Mass add csv: 0 lines read
+[27May2025 01:17:42.749] [Server thread/INFO] [com.mactso.spawnbalanceutility.util.Summary/]: Biome fix: 4396 weight changed, 18 add to nether
+[27May2025 01:17:42.750] [Server thread/INFO] [com.mactso.spawnbalanceutility.util.Summary/]: Structure fix: 80 weight changed
+[27May2025 01:17:42.783] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[27May2025 01:17:43.216] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[27May2025 01:17:43.216] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[27May2025 01:17:44.290] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:0 potentially creating overlapping structures detected. Structure sets: [minecraft:mineshafts, minecraft:strongholds, minecraft:buried_treasures]
+[27May2025 01:17:44.291] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:784827271 potentially creating overlapping structures detected. Structure sets: [betterfortresses:fortress, betteroceanmonuments:ocean_monument]
+[27May2025 01:17:44.292] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387313 potentially creating overlapping structures detected. Structure sets: [minecraft:ocean_monuments, dungeoncrawl:dungeons, minecraft:end_cities]
+[27May2025 01:17:44.292] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:817997296 potentially creating overlapping structures detected. Structure sets: [ati_structures:underground_medium, ati_structures:aboveground_large]
+[27May2025 01:17:44.295] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:3 potentially creating overlapping structures detected. Structure sets: [alexscaves:cake_cave, alexscaves:ferrocave]
+[27May2025 01:17:44.295] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:783 potentially creating overlapping structures detected. Structure sets: [nova_structures:taverns, nova_structures:badlands_miner_outpost]
+[27May2025 01:17:44.296] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387312 potentially creating overlapping structures detected. Structure sets: [minecraft:villages, nova_structures:villages_jungle, nova_structures:villages_swamp]
+[27May2025 01:17:44.298] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:4533232 potentially creating overlapping structures detected. Structure sets: [nova_structures:illager_camp, nova_structures:nether_camps]
+[27May2025 01:17:44.300] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:2 potentially creating overlapping structures detected. Structure sets: [alexscaves:ocean_trench, alexscaves:acid_pit]
+[27May2025 01:17:44.301] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:239021 potentially creating overlapping structures detected. Structure sets: [nova_structures:desert_ruins, nova_structures:jungle_ruins]
+[27May2025 01:17:44.307] [Server thread/INFO] [Ksyxis/MinecraftServerMixin/]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[27May2025 01:17:44.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[27May2025 01:17:44.466] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 159 ms
+[27May2025 01:17:44.470] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.785s)! For help, type "help"
+[27May2025 01:17:44.787] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[27May2025 01:17:44.812] [Server thread/INFO] [journeymap/]: global (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.global.config
+[27May2025 01:17:44.813] [Server thread/INFO] [journeymap/]: global (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.global.config
+[27May2025 01:17:44.829] [Server thread/INFO] [journeymap/]: default (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.default.config
+[27May2025 01:17:44.830] [Server thread/INFO] [journeymap/]: default (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.default.config
+[27May2025 01:17:44.834] [Server thread/INFO] [journeymap/]: minecraft~overworld (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~overworld.config
+[27May2025 01:17:44.835] [Server thread/INFO] [journeymap/]: minecraft~overworld (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~overworld.config
+[27May2025 01:17:44.852] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_nether.config
+[27May2025 01:17:44.852] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_nether.config
+[27May2025 01:17:44.854] [Server thread/INFO] [journeymap/]: minecraft~the_end (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_end.config
+[27May2025 01:17:44.855] [Server thread/INFO] [journeymap/]: minecraft~the_end (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_end.config
+[27May2025 01:17:45.156] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.Utility/]: goblinanddungeon:hobgob is a configured spawn placement entity for a mod that is not loaded.
+[27May2025 01:17:45.157] [Server thread/WARN] [com.mactso.spawnbalanceutility.util.Utility/]: goblinanddungeon:gob is a configured spawn placement entity for a mod that is not loaded.
+[27May2025 01:17:45.158] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: farsight.json
+[27May2025 01:17:45.159] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: limitedchunks.json
+[27May2025 01:17:45.159] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[27May2025 01:17:45.327] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[27May2025 01:17:45.685] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[27May2025 01:17:45.714] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 46907
+[27May2025 01:17:45.716] [Server thread/WARN] [ModernFix/]: Dedicated server took 89.974 seconds to load
+[27May2025 01:25:14.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27May2025 01:25:14.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27May2025 01:25:14.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27May2025 01:25:14.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Entropy]'/minecraft:overworld
+[27May2025 01:25:14.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Entropy]'/minecraft:the_nether
+[27May2025 01:25:14.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Entropy]'/minecraft:the_end
+[27May2025 01:25:14.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[27May2025 01:25:14.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[27May2025 01:25:14.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[27May2025 01:25:14.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[27May2025 01:25:14.514] [Server thread/INFO] [Framework/]: Unloading server configs...
+[27May2025 01:25:14.518] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[27May2025 01:25:14.519] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked-common.toml
+[27May2025 01:25:14.520] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked-server.toml
+[27May2025 01:25:14.523] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[27May2025 01:25:14.524] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[27May2025 01:25:14.526] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
