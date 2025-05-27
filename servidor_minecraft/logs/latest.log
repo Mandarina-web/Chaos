@@ -1032,3 +1032,21 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [27May2025 01:44:59.122] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
 [27May2025 01:44:59.177] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 46907
 [27May2025 01:44:59.182] [Server thread/WARN] [ModernFix/]: Dedicated server took 119.599 seconds to load
+[27May2025 02:03:50.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[27May2025 02:03:50.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27May2025 02:03:50.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27May2025 02:03:50.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27May2025 02:03:50.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Entropy]'/minecraft:overworld
+[27May2025 02:03:50.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Entropy]'/minecraft:the_end
+[27May2025 02:03:50.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Entropy]'/minecraft:the_nether
+[27May2025 02:03:50.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[27May2025 02:03:50.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[27May2025 02:03:50.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[27May2025 02:03:50.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[27May2025 02:03:50.895] [Server thread/INFO] [Framework/]: Unloading server configs...
+[27May2025 02:03:50.899] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[27May2025 02:03:50.902] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked-common.toml
+[27May2025 02:03:50.903] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked-server.toml
+[27May2025 02:03:50.905] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[27May2025 02:03:50.905] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[27May2025 02:03:50.913] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
